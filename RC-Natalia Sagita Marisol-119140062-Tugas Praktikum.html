@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Danau Toba</title>
+    <style type="text/css">
+        #scroll-btn {
+                display: none;
+                position: fixed;
+                bottom: 20px;
+                right: 30px;
+                z-index: 99;
+                font-size: 18px;
+                border: none;
+                outline: none;
+                background-color: red;
+                color: white;
+                cursor: pointer;
+                padding: 15px 19px;
+                border-radius: 100px;
+            }
+            
+            #scroll-btn:hover {
+                background-color: #555;
+            }
+            
+            .sampel {
+                min-height: 2000px;
+            }
+    </style>
+</head>
+
+<body>
+        <header><b><font size="4" face="Lucida Calligraphy">
+            <center>
+                Wisata Danau Toba<br>
+                <img src="https://awsimages.detik.net.id/community/media/visual/2020/09/13/danau-toba_169.jpeg?w=780&q=90.jpg" 
+                width="250" height="142">
+            </center>
+        </font></b></header><hr>
+
+        <nav>
+            <ul>
+            <li><b><a href="https://www.gurupendidikan.co.id/danau-toba/">Sejarah</a></b></li>
+            <li><b><a href="https://travel.kompas.com/read/2021/08/06/201556127/20-tempat-
+                wisata-sekitar-danau-toba-cocok-untuk-pencinta-wisata-alam?page=all">Wisata</a></b></li>
+            <li><b><a href="https://weplus.id/article/keunikan-wisata-danau-toba-dibanding-wisata-danau-lainnya/572/">Keunikan</a></b></li>
+            </ul> 
+        </nav>
+
+        <center>
+            <img src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/revision-2019/samosir1.jpg"><br>
+        </center>
+        
+        <article>
+        <p align="justify">
+            Presiden Republik Indonesia Joko Widodo telah mencanangkan lima destinasi
+            wisata super prioritas yang akan dikembangkan secara serius pada 2020. 
+            Destinasi wisata super prioritas ini merupakan bagian dari program "10 Bali Baru". 
+            Lima destinasi super prioritas terdapat diberbagai provinsi seperti Danau Toba (Sumatera Utara), 
+            Candi Borobudur (Jawa Tengah), Mandalika (NTB), Labuhan Bajo (NTT), dan Likupang (Sulawesi Utara). 
+            Kali ini kita akan membahas destinasi Danau Toba.
+            Danau Toba adalah sebuah keajaiban alam yang sangat menakjubkan. 
+            Danau ini diperkirakan terbentuk dari letusan dahsyat sebuah gunung api,
+            Gunung Toba, yang terjadi sekitar 74.000 tahun yang lalu. 
+            Dengan luas lebih dari 1.145 kilometer persegi dan kedalaman 450 meter, 
+            Danau Toba sebenarnya lebih mirip lautan daripada danau. 
+            Di tengah danau vulkanik terbesar di dunia ini juga terdapat sebuah pulau yang berukuran cukup besar, 
+            yaitu Pulau Samosir. 
+
+        </p>
+
+    </article>
+    
+    <form method="GET">
+        <fieldset>
+            <legend>Kotak Saran</legend>
+            <p>
+                <label>Nama :</label>
+                <input type="text" name="nama"></inputtype>
+            </p>
+            <p>
+                <label>Kritik dan Saran :</label>
+                <textarea name="kritik"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="submit"/>
+            </p>
+        </fieldset>
+    </form>
+
+    <footer>
+        <p><font size="2">
+            <button onclick="topFunction()" id="scroll-btn" title="Top">&uarr;</button> 
+            source by : nataliagabe 
+        </p></font>
+
+        <script>
+         window.onscroll = function() {scrollFunction()};
+         
+            function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("scroll-btn").style.display = "block";
+          } else {
+            document.getElementById("scroll-btn").style.display = "none";
+            }
+         }
+            function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </footer>
+</body>
+</html>
