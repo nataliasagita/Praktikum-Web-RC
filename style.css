@@ -1,0 +1,98 @@
+body {
+    background: rgb(179, 173, 173);
+}
+
+.tbl {
+    margin-left: auto;
+    margin-left: auto;
+    color: black;
+    font-size: 120%;
+    padding-bottom: 10px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 163, 109);
+    text-shadow: 1px 1px 0px rgb(63, 62, 62);
+    background: #dde9f5;
+    border: rgb(235, 185, 185) 1px solid;
+}
+
+table th {
+    padding: 15px 35px;
+    border-left: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    background: #ededed;
+}
+
+table th:first-child {
+    border-left: none;
+}
+
+table tr {
+    text-align: center;
+    padding-left: 20px;
+}
+
+table td:first-child {
+    text-align: left;
+    padding-left: 20px;
+    border-left: 0;
+}
+
+table td {
+    padding: 15px 35px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    background: #fafafa;
+    background: -webkit-gradient(linear, left top, left bottom, from(#da7e7e), to(#da7e7e));
+    background: -moz-linear-gradient(top, #da7e7e, #da7e7e);
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+table tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+table tr:hover td {
+    background: #6992ad;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f3b9b9), to(#f3b9b9));
+    background: -moz-linear-gradient(top, #f3b9b9, #f3b9b9);
+}
+
+.btn {
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 12px;
+    line-height: 1;
+    padding: 11px 20px;
+    border-radius: 20px;
+    background: #98bdd6;
+    color: #e96868;
+    cursor: pointer;
+    transition: all 0.3s linear
+}
+
+.btn:hover,
+.btn:focus {
+    background: #90caf1;
+}
+
+.btn:active {
+    background: #8ac5ec;
+}
